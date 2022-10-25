@@ -7,10 +7,13 @@
 
 import Foundation
 
-enum LoginError: Error, LocalizedError {
+enum LoginError:LocalizedError, Identifiable {
     case emailEmpty
     case emailInvalid
     case passwordEmpty
+    var id: Int {
+        hashValue
+    }
     
     var errorDescription: String? {
         switch self {

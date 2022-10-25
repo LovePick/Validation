@@ -13,6 +13,8 @@
 		C1379B5B29027F200018B21E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1379B5A29027F200018B21E /* Preview Assets.xcassets */; };
 		C1379B65290280920018B21E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1379B64290280920018B21E /* String+Extensions.swift */; };
 		C199109A290791C5004B89C5 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1991099290791C5004B89C5 /* LoginError.swift */; };
+		C199109C290798FE004B89C5 /* ValicationSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C199109B290798FE004B89C5 /* ValicationSummaryView.swift */; };
+		C199109E290799BA004B89C5 /* LocalizedError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C199109D290799BA004B89C5 /* LocalizedError+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C1379B5A29027F200018B21E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1379B64290280920018B21E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C1991099290791C5004B89C5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		C199109B290798FE004B89C5 /* ValicationSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValicationSummaryView.swift; sourceTree = "<group>"; };
+		C199109D290799BA004B89C5 /* LocalizedError+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizedError+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		C1379B622902806C0018B21E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C199109B290798FE004B89C5 /* ValicationSummaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C1379B64290280920018B21E /* String+Extensions.swift */,
+				C199109D290799BA004B89C5 /* LocalizedError+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1379B5629027F1E0018B21E /* LoginView.swift in Sources */,
+				C199109C290798FE004B89C5 /* ValicationSummaryView.swift in Sources */,
 				C1379B65290280920018B21E /* String+Extensions.swift in Sources */,
 				C199109A290791C5004B89C5 /* LoginError.swift in Sources */,
+				C199109E290799BA004B89C5 /* LocalizedError+Extensions.swift in Sources */,
 				C1379B5429027F1E0018B21E /* ValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
