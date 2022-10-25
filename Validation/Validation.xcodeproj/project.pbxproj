@@ -12,7 +12,7 @@
 		C1379B5829027F200018B21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1379B5729027F200018B21E /* Assets.xcassets */; };
 		C1379B5B29027F200018B21E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1379B5A29027F200018B21E /* Preview Assets.xcassets */; };
 		C1379B65290280920018B21E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1379B64290280920018B21E /* String+Extensions.swift */; };
-		C199109829078F6A004B89C5 /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C199109729078F6A004B89C5 /* LoginFormError.swift */; };
+		C199109A290791C5004B89C5 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1991099290791C5004B89C5 /* LoginError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		C1379B5729027F200018B21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1379B5A29027F200018B21E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1379B64290280920018B21E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		C199109729078F6A004B89C5 /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
+		C1991099290791C5004B89C5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		C199109629078F49004B89C5 /* FormErrors */ = {
 			isa = PBXGroup;
 			children = (
-				C199109729078F6A004B89C5 /* LoginFormError.swift */,
+				C1991099290791C5004B89C5 /* LoginError.swift */,
 			);
 			path = FormErrors;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			files = (
 				C1379B5629027F1E0018B21E /* LoginView.swift in Sources */,
 				C1379B65290280920018B21E /* String+Extensions.swift in Sources */,
-				C199109829078F6A004B89C5 /* LoginFormError.swift in Sources */,
+				C199109A290791C5004B89C5 /* LoginError.swift in Sources */,
 				C1379B5429027F1E0018B21E /* ValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
